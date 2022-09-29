@@ -13,7 +13,8 @@ arcade.draw_circle_filled(150, 600, 75, arcade.color.CORDOVAN)
 arcade.draw_circle_outline(150, 600, 125, arcade.color.BANANA_MANIA , 5)
 arcade.draw_triangle_filled(300, 600, 600, 600, 450, 350, arcade.color.BITTERSWEET_SHIMMER)
 arcade.draw_triangle_outline(600, 600, 490, 300, 700, 700, arcade.color.JADE, 8)
-
+arcade.draw_arc_filled(800, 700, 100, 100, arcade.color.YELLOW, 30, 350)
+arcade.draw_arc_outline(980, 700, 200, 100, arcade.color.AUROMETALSAURUS, -180, 0, 9)
 arcade.finish_render()
 
 arcade.run()
