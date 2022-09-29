@@ -15,6 +15,7 @@ arcade.draw_triangle_filled(300, 600, 600, 600, 450, 350, arcade.color.BITTERSWE
 arcade.draw_triangle_outline(600, 600, 490, 300, 700, 700, arcade.color.JADE, 8)
 arcade.draw_arc_filled(800, 700, 100, 100, arcade.color.YELLOW, 30, 350)
 arcade.draw_arc_outline(980, 700, 200, 100, arcade.color.AUROMETALSAURUS, -180, 0, 9)
+arcade.draw_parabola_filled(900, 300, 1000, 300, arcade.color.ALMOND)
 arcade.finish_render()
 
 arcade.run()
